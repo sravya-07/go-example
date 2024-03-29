@@ -1,18 +1,18 @@
-✔ Hello World @done(23-01-20 10:56)
-✔ Values @done(23-01-20 10:56)
-✔ Variables @done(23-01-20 10:56)
-✔ Constants @done(23-01-20 10:56)
-✔ For @done(23-01-20 10:56)
-✔ If/Else @done(23-01-20 10:56)
-✔ Switch @done(23-01-20 10:56)
-✔ Arrays @done(23-01-20 10:56)
-✔ Slices @done(23-01-20 10:56)
-✔ Maps @done(23-01-20 10:56)
-✔ Range @done(23-01-20 10:56)
-✔ Functions @done(23-01-20 10:56)
-✔ Multiple Return Values @done(23-01-20 10:56)
-✔ Variadic Functions @done(23-01-20 10:56)
-✔ Closures @done(23-01-20 10:56)
+✔ Hello World @done(24-03-29 16:18)
+✔ Values @done(24-03-29 16:18)
+✔ Variables @done(24-03-29 16:18)
+☐ Constants
+☐ For
+☐ If/Else
+☐ Switch
+☐ Arrays
+☐ Slices
+☐ Maps
+☐ Range
+☐ Functions
+☐ Multiple Return Values
+☐ Variadic Functions
+☐ Closures
 ☐ Recursion
 ☐ Pointers
 ☐ Strings and Runes

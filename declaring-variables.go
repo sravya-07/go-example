@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	// declaring a variable ;
@@ -42,4 +45,27 @@ func main() {
 		i string = "Hello"
 	)
 	fmt.Println(h, i)
+
+	// Finding the type of a variable
+	// %T format specifier
+	// reflect.TypeOf
+	var (
+		j int     = 10
+		k string  = "Hello"
+		l float64 = 1.234
+		m bool    = true
+	)
+	fmt.Printf("j = %v, type = %T\n", j, j)
+	fmt.Printf("k = %v, type = %T\n", k, k)
+	fmt.Printf("l = %v, type = %T\n", l, l)
+	fmt.Printf("m = %v, type = %T\n", m, m)
+
+	var n int = 20
+	var p string = "Hello"
+
+	fmt.Println("n = %v, type = %v", n, reflect.TypeOf(n))
+	fmt.Println("p = %v, type = %v", p, reflect.TypeOf(p))
+
+	var q = "john"
+	fmt.Println(q)
 }

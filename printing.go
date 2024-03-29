@@ -28,6 +28,7 @@ func main() {
 		%s -> plain string
 		%f -> floating numebers
 		%0.2f -> floating numbers upto 2 decimal places
+		%t -> bool
 	*/
 	fmt.Printf("Hi %v", "hello")
 	fmt.Printf("Hi %d", 10)
